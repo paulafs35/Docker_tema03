@@ -118,5 +118,3 @@
 
    Se sigue viendo la misma página.
    ![](.\images\tema_03\Ejercicio04b_bind.png)
-
-   
