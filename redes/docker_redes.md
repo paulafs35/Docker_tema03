@@ -1,7 +1,5 @@
 # Redes en Docker
 
-> Alba Barrio González
->
 > Paula Fernández Suárez
 
 [TOC]
