@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+   app:
+      container_name: letschat
+      image: sdelements/lets-chat
+      restart: always
+      environment:
+         LCB_DATABASE_URI: mongodb://mongo/letschat
+      ports:
+         - 8080:8080
+      depends_on:
+         - db
+   db:
+      container_name: mongo
+      image: mongo:5.0
+      restart: always
+      volumes:
+         - ./opt/mongo:/data/db
