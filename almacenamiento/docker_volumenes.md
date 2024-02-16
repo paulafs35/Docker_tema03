@@ -1,4 +1,4 @@
-# Docker
+# Docker: Volúmenes y Bind mount
 
 [TOC]
 
@@ -6,9 +6,7 @@
 
 ![](./images/contenedores.png)
 
-## Volúmenes y Bind mount
-
-### Volúmenes
+## Volúmenes
 
 1. Crea un volumen docker que se llame `miweb`.
 
@@ -62,7 +60,7 @@
    ![](./images/Ejercicio04_vol.png)
 
    
-### Bind mount
+## Bind mount
 
 1. Crea un directorio en tu host y dentro crea un fichero `index.html`. 
 
